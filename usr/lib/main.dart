@@ -18,11 +18,16 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.blue,
           brightness: Brightness.light,
+          primary: Colors.blue,
         ),
         useMaterial3: true,
+        scaffoldBackgroundColor: Colors.white,
         appBarTheme: const AppBarTheme(
           centerTitle: true,
           elevation: 0,
+          backgroundColor: Colors.blue,
+          foregroundColor: Colors.white,
+          iconTheme: IconThemeData(color: Colors.white),
         ),
       ),
       initialRoute: '/login',
